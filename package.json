@@ -1,9 +1,9 @@
 {
-  "name": "Sompony-Middleware-WebApp",
+  "name": "Voting_App",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "ssh://hearti-lab@hearti-lab.visualstudio.com:22/Sompo/_git/Sompony-Middleware-WebApp",
-  "author": "thanhle <thanhle@hearti.io>",
+  "repository": "https://github.com/HoangTuanNhan/voting_app.git",
+  "author": "nhanht@rikkeisoft.com",
   "license": "MIT",
   "scripts": {
     "start": "./node_modules/.bin/nodemon ./bin/www --exec babel-node --presets es2015,stage-2",
@@ -16,7 +16,10 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
     "nodemon": "^1.12.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.7.1"
   },
@@ -36,11 +39,13 @@
     "react-bootstrap": "^0.31.3",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-form": "^7.0.4",
     "redux-logger": "^3.0.6",
     "redux-promise": "^0.5.3",
+    "semantic-ui": "^2.3.1",
     "serve-favicon": "^2.4.4"
   }
 }
